@@ -3,7 +3,8 @@ class PadrinoRedisStore < Padrino::Application
   register Padrino::Cache   
   register Padrino::Helpers 
   register Padrino::Admin::AccessControl
-  
+  set :session_id, 'customsid'
+
   ##
   # Caching support
   #
