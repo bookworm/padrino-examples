@@ -1,0 +1,19 @@
+source :rubygems
+
+# Server requirements
+gem 'thin' 
+
+# Project requirements
+gem 'rake'
+gem 'sinatra-flash', :require => 'sinatra/flash'
+
+# Component requirements
+gem 'slim'
+gem 'mongo_mapper'
+gem 'bson_ext',    :require => 'mongo'
+gem 'bcrypt-ruby', :require => "bcrypt"
+gem 'redis',       :require => 'redis'
+gem 'redis-rack',  :require => 'rack/session/redis'
+
+# Padrino Stable Gem
+gem 'padrino', '0.10.7'
