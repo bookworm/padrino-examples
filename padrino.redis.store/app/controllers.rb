@@ -6,7 +6,6 @@ end
 
 PadrinoRedisStore.controllers :sessions do
   get :new, :map => '/sessions/new' do
-    puts settings.session_id
     render '/sessions/new', nil, :layout => false
   end
 
