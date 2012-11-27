@@ -12,3 +12,4 @@ An example app showing how to setup padrino-cache and sessions to use Redis
   With a lot of apps this could get repetitive, so I have made a fix for this [here](https://github.com/bookworm/padrino-framework/commit/ba244973096e5dfbb7350c91b53296093be41b36)
 - Make sure to use redis-rack and not redis-store. 
   See this [open issue](https://github.com/jodosha/redis-store/issues/141)
+  
